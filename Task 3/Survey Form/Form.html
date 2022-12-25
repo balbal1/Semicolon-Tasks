@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Connect</title>
+        <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Courgette&family=Gochi+Hand&family=Mali&family=Marck+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="icon.png" height="40px">
+                    <h1 id="title">Connect</h1>
+                    <p id="description">a new way to have connection with your loved ones</p>
+                </div>
+                <div class="icon">
+                    <img src="logo.png" height="80px">
+                </div>
+                <div class="tabs">
+                    <h2>Home</h2>
+                    <h2>Forums</h2>
+                    <h2>Help</h2>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <h3>New Member Registeration</h3>
+                <fieldset>
+                    <p>Already a member? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sign In!</a></p>
+                </fieldset>
+                <br>
+                <form id="survey-form">
+                    <label for="name" id="name-label">Username<input id="name" type="text" placeholder="input your name" required></label>
+                    <label for="number" id="number-label" style="margin: 0 280px;">Age<input id="number" type="number" min="13" max="100" placeholder="input your age" style="margin-left: 74px;"></label>
+                    <label for="email" id="email-label" style="margin: 0 271px;">Email<input id="email" type="email" placeholder="input your email" required style="margin-left: 66px;"></label>
+                    <label for="pass" id="pass-label" style="margin: 0 256px;">Password<input id="pass" type="password" placeholder="input a password" required style="margin-left: 55px;"></label>
+                    <label for="referrer" style="margin: 0 262px;">Country
+                        <select id="dropdown"style="margin: 0 0 0 55px;">
+                            <option value="0">choose your country</option>
+                            <option value="1">Egypt</option>
+                            <option value="1">Middle East</option>
+                            <option value="1">Africa</option>
+                            <option value="1">Asia</option>
+                            <option value="1">Europe</option>
+                            <option value="1">North America</option>
+                            <option value="1">South America</option>
+                            <option value="1">Antarctica</option>
+                        </select>
+                    </label>
+                    <fieldset></fieldset>
+                    <br>
+                    <label>Where do you study/work</label>
+                    <div class="option">
+                        <label class="line"><input type="radio" id="radio1" name="radio" value="School">School</label>
+                        <label class="line"><input type="radio" id="radio1" name="radio" value="Collage">Collage</label>
+                        <label class="line"><input type="radio" id="radio2" name="radio" value="Work">Work</label>
+                    </div>
+                    <br>
+                    <label>Your interests</label>
+                    <div class="option">
+                        <label class="line"><input type="checkbox" id="check1" value="Penguins">Penguins</label>
+                        <label class="line"><input type="checkbox" id="check2" value="Cooking">Cooking</label>
+                        <label class="line"><input type="checkbox" id="check3" value="Cubing">Cubing</label>
+                    </div>
+                    <br>
+                    <label><textarea id="area" rows="5" cols="10" placeholder="Write something about yourself !!"></textarea></label>
+                    <input id="submit" type="submit" value="Create a new account">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

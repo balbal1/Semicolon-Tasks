@@ -1,0 +1,158 @@
+@font-face {
+    src: url("https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Courgette&family=Gochi+Hand&family=Mali&family=Marck+Script&display=swap");
+}
+html {
+    background-image: url("https://static6.depositphotos.com/1144687/635/i/450/depositphotos_6358895-stock-photo-male-and-female-hands-palms.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    background-color: rgb(242, 233, 228, 0.9);
+    height: 880px;
+    font-family: "Charm";
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(201, 173, 167, 0.9);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 30px 5px;
+}
+.logo, .tabs, .icon {
+    color: #4a4e69;
+    font-weight: bold;
+    width: 450px;
+    display: inline-block;
+    margin: 0;
+}
+.icon {
+    width: 90px;
+    margin: 0 0 0 250px;
+    position: relative;
+    top: 8px;
+}
+.tabs {
+    width: 300px;
+    position: relative;
+    bottom: 20px;
+    margin-left: 300px;
+}
+.logo img {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+}
+h1 {
+    font-family: "Courgette";
+    font-size: 35px;
+    margin: 10px 15px 5px;
+    display: inline-block;
+}
+h2 {
+    display: inline-block;
+    margin: 0 0 0 40px;
+}
+h2:hover {
+    color: #f72585;
+}
+p {
+    font-family: "Marck Script";
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+fieldset {
+    border: none;
+    width: 70%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset p {
+    font-family: "Charm";
+    margin: 25px 20px 15px;
+}
+a {
+    color: #f72585;
+}
+a:visited {
+    color: #f72585;
+}
+main {
+    margin: 100px 20px;
+    padding: 20px 0;
+}
+.content {
+    background-color: rgb(201, 173, 167, 0.5);
+    width: 60%;
+    margin: 10px auto;
+    padding: 1px;
+}
+h3 {
+    font-family: "Courgette";
+    font-size: 35px;
+    width: 420px;
+    margin: 30px auto 10px;
+    color: #ef476f;
+}
+label {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+input, textarea, select {
+    display: inline-block;
+    background-color: #c9ada7;
+    border: 1px solid #4a4e69;
+    border-radius: 6px;
+    color: #4a4e69;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    margin: 5px 30px;
+}
+textarea {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: 10px;
+    margin: 0 5px;
+}
+.option {
+    width: 40%;
+    margin: 0 auto;
+}
+.option label {
+    width: 30%;
+}
+.line {
+    display: inline-block;
+}
+::placeholder, select {
+    color: #4a4e69;
+    font-family: "Mali";
+}
+input {
+    margin: 0 0 0 50px;
+    padding: 5px;
+}
+input[type="checkbox"], input[type="checkbox"]:focus, input[type="checkbox"]:hover, input[type="radio"], input[type="radio"]:focus, input[type="radio"]:hover {
+    accent-color: #eb6f8c;
+}
+input[type="submit"] {
+    width: 50%;
+    margin: 20px 225px;
+}
+input[type="submit"]:hover {
+    background-color: rgb(242, 233, 228);
+}
+input[type="submit"]:active {
+    background-color: #eb6f8c;
+}
