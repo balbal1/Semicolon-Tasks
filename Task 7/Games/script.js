@@ -69,7 +69,7 @@ let motion = function(me, cpu, msg, W) {
 }
 
 let resetRBS = function() {
-    container.style.flexDirection = "column";
+    container.style.flexDirection = "";
     container.children[0].remove();
     nam.innerHTML = "<p class='nam'>Choose a Pose</p>";
     after.style.display = "none";
