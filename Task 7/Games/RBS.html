@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock-Paper-Scissors</h1>
+        <div class="inputRBS">
+            <div class="option clk" id="rock" onclick="RBS('rock')">
+                <img src="imgs/rock.png">
+            </div>
+            <div class="option clk" id="paper" onclick="RBS('paper')">
+                <img src="imgs/paper.png">
+            </div>
+            <div class="option clk" id="scissors" onclick="RBS('scissors')">
+                <img src="imgs/scissors.png">
+            </div>
+        </div>
+        <div class="turn">
+            <p class="nam">Choose a Pose</p>
+        </div>
+        <div class="after">
+            <p class="msg"></p>
+            <div class="reset" onclick="resetRBS()">reset</div>
+        </div>
+        <div class="link">
+            <p>Want to play Tic-Tac-Toe?</p>
+            <a class="btn" href="XO.html">Click Here!</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
